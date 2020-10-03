@@ -1,0 +1,61 @@
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 195
+    win.blit(alien[0],(self.x,self.y))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 200
+    pygame.draw.rect(win,(255,0,0),(self.hitbox[0],self.hitbox[1]-20,50,10))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 201
+    pygame.draw.rect(win,(0,128,0),(self.hitbox[0],self.hitbox[1]-20,50-(5*(10-self.health)),10))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 73
+    win.blit(ship,(self.x,self.y))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 262
+    win.blit(enemy_laser,(self.x,self.y))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 241
+    win.blit(bullet_image,(self.x,self.y))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 281
+    win.blit(redbullet,(self.x,self.y))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 204
+    win.blit(e_blast,(self.x,self.y))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 305
+    win.blit(enemy1,(self.x,self.y))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 307
+    win.blit(e_blast,(self.x,self.y))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+
+Warning (from warnings module):
+  File "C:\Users\Abhijith Das\Documents\Python\Game\Space Invasion\trial6.py", line 89
+    win.blit(p_blast,(self.x-27,self.y-13))
+DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
